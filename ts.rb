@@ -3,8 +3,8 @@ require "uri"
 require 'json'
 load 'createCH.rb'
 
-    userkey = 'ML96T5X7IBRSY4IY'
-    thingspeak = 'http://www.tsiots.com:3000/'
+    userkey = 'E79XUET2YHT2KENR'
+    thingspeak = 'http://0.0.0.0:3000/'
     
     Struct.new("Device", :id, :address ,:existence ,:name, :api_key)
     ary = Array.new 
